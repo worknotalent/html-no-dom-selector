@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test HTML for html-no-dom-selector</title>
+</head>
+<body>
+  <div id="container" data-role="main" class="wrapper flex">
+    <header class="site-header sticky" data-visible="true">
+      <nav id="main-nav" class="navigation horizontal" role="navigation">
+        <ul class="menu level-1">
+          <li class="menu-item active"><a href="/home" data-link="home">Home</a></li>
+          <li class="menu-item"><a href="/about" data-link="about">About</a></li>
+          <li class="menu-item"><a href="/contact" data-link="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="content" class="content-area" data-status="loaded">
+      <section class="intro section" data-section-id="intro">
+        <h1>Welcome!</h1>
+        <p class="text lead" data-info="first-paragraph">This is a test paragraph.</p>
+      </section>
+      <section class="features section" data-section-id="features">
+        <article class="feature-item highlighted" data-feature="speed">
+          <h2>Speed</h2>
+          <p>Fast performance with low overhead.</p>
+        </article>
+        <article class="feature-item" data-feature="simplicity">
+          <h2>Simplicity</h2>
+          <p>Easy to use and understand.</p>
+        </article>
+      </section>
+    </main>
+    <footer class="site-footer" data-footer="true">
+      <p>&copy; 2025 Test Corp</p>
+    </footer>
+  </div>
+</body>
+</html>
